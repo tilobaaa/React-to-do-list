@@ -1,0 +1,25 @@
+.list-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3rem 1rem;
+    border-radius: 15px;
+    border: solid black 1px;
+    background-color: darkgray;
+    margin: 1rem;
+
+}
+
+.list-item button{
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 50%;
+    background-color: #EC8F5E;
+    width: 4rem;
+}
+
+
+.list-item button:hover{
+    cursor: pointer;
+    background-color: crimson;
+
+}
